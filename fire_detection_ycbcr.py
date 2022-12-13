@@ -92,11 +92,6 @@ for i in imagens:
     comb = cv2.addWeighted(comb_12, 1, comb_34, 1, 0)
     cv2.imshow("Regiao de Fogo Segmentada", comb)
 
-    # cv2.imwrite("r12.jpg", comb_12)
-    # cv2.imwrite("r34.jpg", comb_34)
-    # cv2.imwrite("rule1.jpg", regra1_imagem)
-    # cv2.imwrite("rule2.jpg", regra2_imagem)
-    # cv2.imwrite("resultado.jpg", comb)
-
     cv2.waitKey(0)
+    
 cv2.destroyAllWindows()
